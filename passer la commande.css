@@ -1,0 +1,54 @@
+body{
+	font-family: 'Poppins', sans-serif;
+	font-size:14px;
+	color:#ae9071;
+    text-transform:initial;
+    max-width:1920px;
+    margin:0 auto;
+	overflow-x:hidden;
+    background-color: #3a6666;
+}
+#banner {
+    background: lightseagreen;
+    height: auto;
+    padding:  100px  100px;
+    text-align: center;
+    color: rgb(221, 152, 152);
+  }
+  
+  h1 {
+    font-family: Arial;
+  }
+  
+  p {
+    font-family: Arial;
+  }
+
+  .passer-banner {
+    background-color: indianred;
+    padding:  20px;
+    margin-bottom:  20px;
+    border-radius:  5px;
+    text-align: center; /* Centrer le texte */
+}
+
+.passer-banner h2 {
+    font-size:  24px; /* Taille de police du titre */
+    margin-bottom:  10px; /* Espace entre le titre et le paragraphe */
+    text-align: center;
+}
+
+.passer-banner h3 {
+  font-size:  24px;
+  padding:  20px;
+  margin-bottom:  10px;
+  border-radius:  5px;
+  text-align: center;
+}
+  
+footer {
+    text-align: center;
+    padding:  5px;
+    background-color:  #3a6666;
+    color: red;
+  }
