@@ -8,6 +8,9 @@ body{
 	overflow-x:hidden;
     background-color: #3a6666;
 }
+body{
+  text-align: center;
+}
 #banner {
     background: lightseagreen;
     height: auto;
@@ -15,9 +18,25 @@ body{
     text-align: center;
     color: rgb(221, 152, 152);
   }
+  a {
+    color:orangered;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: none !important;
+  }
+  a:hover, a:active, a:focus {
+    color: rgb(19, 72, 96);
+    outline: none;
+  }
   
   h1 {
     font-family: Arial;
+      color:blue;
+      -webkit-transition: 0.5s;
+      -o-transition: 0.5s;
+      transition: 0.5s;
+      text-decoration: lightseagreen !important;
   }
   
   p {
@@ -26,29 +45,29 @@ body{
 
   .passer-banner {
     background-color: indianred;
-    padding:  20px;
-    margin-bottom:  20px;
-    border-radius:  5px;
+    padding:  50px;
+    margin-bottom:  50px;
+    border-radius:  15px;
     text-align: center; /* Centrer le texte */
 }
 
 .passer-banner h2 {
-    font-size:  24px; /* Taille de police du titre */
-    margin-bottom:  10px; /* Espace entre le titre et le paragraphe */
+    font-size:  100px; /* Taille de police du titre */
+    margin-bottom:  200px; /* Espace entre le titre et le paragraphe */
     text-align: center;
 }
 
 .passer-banner h3 {
   font-size:  24px;
   padding:  20px;
-  margin-bottom:  10px;
+  margin-bottom:  20px;
   border-radius:  5px;
   text-align: center;
 }
   
 footer {
     text-align: center;
-    padding:  5px;
+    padding:  10px;
     background-color:  #3a6666;
     color: red;
   }

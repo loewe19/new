@@ -24,6 +24,32 @@
         $(".navbar-collapse").collapse('hide');
     });
 
+    let currentSlide = 0;
+const slides = document.querySelectorAll('.carousel-slide');
+
+function showSlide(index) {
+    slides.forEach((slide, i) => {
+        slide.style.display = i === index ? 'block' : 'none';
+    });
+}
+
+function nextSlide() {
+    currentSlide = (currentSlide + 1) % slides.length;
+    showSlide(currentSlide);
+}
+
+function prevSlide() {
+    currentSlide = (currentSlide - 1 + slides.length) % slides.length;
+    showSlide(currentSlide);
+}
+
+// Défilement automatique
+setInterval(nextSlide, 3000); // Changez 3000 pour ajuster la vitesse de défilement
+
+// Navigation manuelle
+document.querySelector('.next-slide').addEventListener('click', nextSlide);
+document.querySelector('.prev-slide').addEventListener('click', prevSlide);
+
 
 
   /*-------------------------------------------------------------------------------

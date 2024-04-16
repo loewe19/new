@@ -7,7 +7,7 @@ http://www.templatemo.com/tm-492-app-starter
 */
 
 body {
-		background:#4c4d4f;
+		background:rgb(0, 36, 128);
     font-family: 'Source Sans Pro', sans-serif;
     font-style: normal;
 		font-weight: 300;
@@ -16,7 +16,37 @@ body {
     size: 50px;
     background-image: repeating-linear-gradient(transform);
 }
+#localisation-banner {
+  background: lightseagreen;
+  height: auto;
+  padding:  100px  100px;
+  text-align: center;
+  color: rgb(221, 152, 152);
+}
+a {
+  color:orangered;
+  -webkit-transition: 0.5s;
+  -o-transition: 0.5s;
+  transition: 0.5s;
+  text-decoration: none !important;
+}
+a:hover, a:active, a:focus {
+  color: rgb(19, 72, 96);
+  outline: none;
+}
 
+h1 {
+  font-family: Arial;
+    color:blue;
+    -webkit-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    text-decoration: lightseagreen !important;
+}
+
+p {
+  font-family: Arial;
+}
 
 /*---------------------------------------
     Typorgraphy               
@@ -35,10 +65,10 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 h1 {
-    color:powderblue;
-    font-size: 52px;
-    letter-spacing: 2px;
-    padding-bottom: 5px;
+    color:rgb(53, 137, 148);
+    font-size: 35px;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
     margin-bottom: 0px;
 }
 
@@ -48,7 +78,7 @@ h2 {
 }
 
 h3 {
-  color:darkcyan;
+  color:rgb(183, 16, 16);
   font-size: 22px;
   line-height: 32px;
   padding-bottom: 4px;
@@ -102,7 +132,7 @@ html{
 }
 
 a {
-  color:orangered;
+  color:rgb(216, 71, 18);
   -webkit-transition: 0.5s;
   -o-transition: 0.5s;
   transition: 0.5s;
@@ -133,7 +163,7 @@ a:hover, a:active, a:focus {
 
 ::-webkit-scrollbar-thumb {
   cursor: pointer;
-  background:rgb(109, 98, 98);
+  background:#4776E6;
 }
 
 .section-title {
@@ -146,8 +176,8 @@ a:hover, a:active, a:focus {
 #screenshot,
 #localisation,
 #newsletter {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
 
 #divider,
@@ -390,21 +420,22 @@ a:hover, a:active, a:focus {
 /*---------------------------------------
     Screenshot section              
 -----------------------------------------*/
-
+h1 {
+  text-align: center;
+ }
 #screenshot .col-md-3 {
   display: block;
   width: 100%;
   padding-bottom: 1rem;
 }
-
 #screenshot img {
   background-color: #ffffff1e;
   box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
   border-radius: 2px;
   cursor: pointer;
   display: block;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   position: relative;
   top: 0px;
   transition: all 0.4s ease-in-out;
@@ -445,7 +476,7 @@ a:hover, a:active, a:focus {
 -----------------------------------------*/
 
 #pricing {
-  background: #535bd4;
+  background: pink;
 }
 
 #pricing .pricing-plan {
@@ -455,16 +486,16 @@ a:hover, a:active, a:focus {
 }
 
 #pricing .pricing-plan .pricing-month {
-  padding: 14px 10px 6px 10px;
+  padding: 20px 15px 10px 15px;
 }
 
 #pricing .pricing-plan .pricing-month h2 {
   font-size: 52px;
-  color: #1dc9e3;
+  color: #07363d;
 }
 
 #pricing .pricing-plan .section-btn {
-  background: #1dc9e3;
+  background: rgb(187, 205, 187);
   position: relative;
   top: 20px;
 }
@@ -481,8 +512,8 @@ a:hover, a:active, a:focus {
 
 #newsletter {
     background: #535bd4 url('../images/téléchargement - Copie.jfif') repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size:50px;
+    background-position: center;
     color:blue;
     position: relative;
    
@@ -492,8 +523,8 @@ a:hover, a:active, a:focus {
   background:transparent;
   opacity:0.9;
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 50%;
+  height: 50%;
   top: 0;
   left: 0;
   right: 0;
@@ -529,8 +560,8 @@ a:hover, a:active, a:focus {
   height: 55px;
 }
 #newsletter input[type="email"] {
-  background-color:green;
-  border-radius: 100px;
+  background-color:rgb(117, 144, 117);
+  border-radius: 50px;
   border: 5px solid #ebe2e2;
   color: #1dc9e3;
   font-size: 17px;
@@ -753,7 +784,7 @@ footer p {
 }
 
 .social-icon li a:hover {
-    background: #1dc9e3;
+    background: #8eadb2;
     color:#1dc9e3;
     top: -5px;
 }
